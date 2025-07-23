@@ -24,7 +24,10 @@
 06_Post_Process_Unbiased/data
 06_Post_Process_Unbiased/results
 
-07_Benchmarking/results
+07_Benchmarking/results/predictions
+07_Benchmarking/results/evaluation/*auc_pr.tsv
+07_Benchmarking/results/evaluation/*auc_roc.tsv
+07_Benchmarking/results/RUNME.log
 07_Benchmarking/mirbench_venv
 
 08_Tree_Based_Models/data

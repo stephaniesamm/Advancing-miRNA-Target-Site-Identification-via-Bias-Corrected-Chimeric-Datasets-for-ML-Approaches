@@ -1,0 +1,8 @@
+Tool	avg_p_score
+TargetScanCnn_McGeary2019	0.7735
+CnnMirTarget_Zheng2020	0.525
+TargetNet_Min2021	0.5723
+miRBind_Klimentova2022	0.709
+miRNA_CNN_Hejret2023	0.7113
+InteractionAwareModel_Yang2024	0.692
+RNACofold	0.628

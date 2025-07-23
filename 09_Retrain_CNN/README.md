@@ -2,7 +2,7 @@
 
 ## Description
 
-This analysis retrains the convolutional neural network (CNN) model from [Hejret et al. (2023)](https://doi.org/10.1038/s41598-023-49757-z), on the bias-corrected Hejret2023 train set and on the larger unbiased Manakov2022 train set. The model is independently trained on 2 data representations. The script also runs inference and evaluation on all `miRBench` evaluation datasets. 
+This analysis retrains the convolutional neural network (CNN) model from [Hejret et al. (2023)](https://doi.org/10.1038/s41598-023-49757-z), on the bias-corrected Hejret2023 train set and on the larger unbiased Manakov2022 train set. Two different data representations methods are used. The script also runs inference and evaluation on all `miRBench` evaluation datasets. 
 
 1. **Dataset Retrieval & Encoding**: Locates or downloads each required dataset split, adds dot-bracket RNA secondary structure information, and encodes each dataset into two formats: `50_20_1` (Sequence-only) and `50_20_2` (Sequence & Co-folding) data representations.
 

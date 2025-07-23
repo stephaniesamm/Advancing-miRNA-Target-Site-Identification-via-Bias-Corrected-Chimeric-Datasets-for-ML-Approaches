@@ -2,7 +2,7 @@
 
 ## Description 
 
-The master script runs the [HybriDetector](https://github.com/ML-Bioinfo-CEITEC/HybriDetector/tree/fix_clustering) Pipeline on preprocessed chimeric eCLIP data, which produced structured datasets containing chimeric miRNA to target site interactions. 
+The master script runs the [HybriDetector](https://github.com/ML-Bioinfo-CEITEC/HybriDetector/tree/fix_clustering) Pipeline on preprocessed chimeric eCLIP data, which produces structured datasets containing chimeric miRNA to target site interactions. 
 
 ## Dependencies
 
@@ -31,4 +31,4 @@ find "/full/path/to/source/directory" -type f -name "*.pp.fastq.gz" -exec bash -
 
 ## Notes
 
-The output of `HybriDetector` is contained within the directory. Relevant files for downstream analysis include `code/HybriDetector/hyb_pairs/*.unified_length_all_types_unique_high_confidence.tsv`, one of the final outputs of the pipeline. One is produced per sample file processed. Out of the 20 samples to be processed with the `HybriDetector` Pipeline, only 19 were successfully processed. These were uploaded to https://zenodo.org/records/14730307. 
+The output of `HybriDetector` is contained within the directory. Relevant files for downstream analysis include `code/HybriDetector/hyb_pairs/*.unified_length_all_types_unique_high_confidence.tsv`, one of the final outputs of the pipeline. One such file is produced per input sample file that is processed. Out of the 20 samples to be processed with the `HybriDetector` Pipeline, only 19 were successfully processed. These were uploaded to https://zenodo.org/records/14730307. 
